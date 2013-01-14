@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "backbone/queryparams/rails/version"
+require "backbone/query_params/rails/version"
 
 Gem::Specification.new do |gem|
   gem.name        = "backbone-queryparams-rails"
