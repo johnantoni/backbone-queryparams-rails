@@ -3,11 +3,11 @@
 This gem wraps the [backbone-query-parameters
 library](https://github.com/jhudson8/backbone-query-parameters) in the Rails asset pipeline for Rails 3.1 and up.
 
-### Step 1: Add to your gemfile:
+### Step 1: Add to Gemfile
 
     gem 'backbone-queryparams-rails'
 
-### Step 2: Include assets:
+### Step 2: Include assets
 
 #### javascript
 
