@@ -17,6 +17,6 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ['lib']
 
-  gem.add_development_dependency 'rake', '~> 0'
-  gem.add_runtime_dependency 'railties', '~> 3.1', '> 3.1'
+  gem.add_development_dependency 'rake', '> 0'
+  gem.add_runtime_dependency 'railties', '> 3.1'
 end
