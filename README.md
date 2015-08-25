@@ -8,11 +8,11 @@ library](https://github.com/jhudson8/backbone-query-parameters) in the Rails ass
     gem 'backbone-queryparams-rails'
 
 ### Step 2: Include assets
-
-#### javascript
-
-    // In application.js
-    //= require backbone-queryparams-rails
+Decide if you want to include a [shim](https://github.com/jhudson8/backbone-query-parameters/blob/v0.4.0/backbone.queryparams-1.1-shim.js) with workaround for an issue introduced in Backbone 1.1. Then, in your `application.js` file add the following:
+```javascript
+    //= require backbone-queryparams-rails //Includes both library and shim
+    //= require backbone-queryparams-rails/backbone.queryparams.js //Includes library only
+```
 
 ### Many Thanks
 
